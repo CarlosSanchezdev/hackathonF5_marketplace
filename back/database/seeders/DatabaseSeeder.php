@@ -42,6 +42,15 @@ class DatabaseSeeder extends Seeder
 
          Developer::factory()->create([
              'img' => '',
+             'name' => 'Alba Rus',
+             'email' => 'alba@developer.com',
+             'genderIdentity' => 'She/Her',
+             'position' => 'Back Developer',
+             'stackDescription' => 'Junior Back Developer with experience in HTML5, CSS3, JavaScript, PHP, Laravel and MySQL.',
+        ]);
+
+         Developer::factory()->create([
+             'img' => '',
              'name' => 'Ainhoa Cala',
              'email' => 'ainhoa@developer.com',
              'genderIdentity' => 'She/Her',
