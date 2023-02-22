@@ -19,6 +19,7 @@ class DeveloperFactory extends Factory
         return [
         'img' => $this->faker->imageUrl(),
         'name' => $this->faker->name(),
+        'email' => $this->faker->email(),
         'genderIdentity' => $this->faker->name(),
         'position' => $this->faker->name(),
         'stackDescription' => $this->faker->text(),

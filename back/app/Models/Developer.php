@@ -11,6 +11,7 @@ class Developer extends Model
     protected $fillable = [
         'img',
         'name',
+        'email',
         'genderIdentity',
         'position',
         'stackDescription',
