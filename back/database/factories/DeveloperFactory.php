@@ -17,7 +17,11 @@ class DeveloperFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+        'img' => $this->faker->imageUrl(),
+        'name' => $this->faker->name(),
+        'genderIdentity' => $this->faker->name(),
+        'position' => $this->faker->name(),
+        'stackDescription' => $this->faker->text(),
         ];
     }
 }
