@@ -28,7 +28,25 @@ class DatabaseSeeder extends Seeder
              'email' => 'carlos@developer.com',
              'genderIdentity' => 'He/Him',
              'position' => 'Front Developer',
-             'stackDescription' => 'Junior Front Developer with experience in HTML5, CSS3, JavaScript amd React.',
+             'stackDescription' => 'Junior Front Developer with experience in HTML5, CSS3, JavaScript and React.',
+        ]);
+
+         Developer::factory()->create([
+             'img' => '',
+             'name' => 'Ana Delgado',
+             'email' => 'ana@developer.com',
+             'genderIdentity' => 'She/Her',
+             'position' => 'Full Stack Developer',
+             'stackDescription' => 'Junior Full Stack Developer with experience in HTML5, CSS3, JavaScript, React, PHP and symphony.',
+        ]);
+
+         Developer::factory()->create([
+             'img' => '',
+             'name' => 'Ainhoa Cala',
+             'email' => 'ainhoa@developer.com',
+             'genderIdentity' => 'She/Her',
+             'position' => 'Front Developer',
+             'stackDescription' => 'Junior Front Developer with experience in HTML5, CSS3, JavaScript and React.',
         ]);
     }
 }
