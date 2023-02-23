@@ -21,7 +21,7 @@ class DeveloperTest extends TestCase
         $response->assertStatus(200);
     }
 
-    public function test_Developer_list()
+    public function test_developers_can_appear_in_json()
     {
         Developer::factory(2)->create();
         
@@ -31,7 +31,7 @@ class DeveloperTest extends TestCase
              ->assertJsonCount(2);
     }
 
-   public function test_developer_can_be_shown_in_json()
+   public function test_a_developer_can_be_shown_in_json()
     {
         $developer = Developer::factory()->create();
 
@@ -45,6 +45,7 @@ class DeveloperTest extends TestCase
                 'genderIdentity'=> $developer->genderIdentity,
                 'position'=> $developer->position,
                 'stackDescription'=> $developer->stackDescription,
+                'projectDescription'=> $developer->projectDescription,
             ]);
     }
 }

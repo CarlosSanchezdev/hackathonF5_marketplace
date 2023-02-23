@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('genderIdentity')->nullable();
             $table->string('position');
             $table->string('stackDescription', 250);
+            $table->string('projectDescription', 250);
 
             $table->timestamps();
         });

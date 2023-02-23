@@ -23,6 +23,7 @@ class DeveloperFactory extends Factory
         'genderIdentity' => $this->faker->name(),
         'position' => $this->faker->name(),
         'stackDescription' => $this->faker->text(),
+        'projectDescription' => $this->faker->text(),
         ];
     }
 }
