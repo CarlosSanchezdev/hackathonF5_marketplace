@@ -34,13 +34,13 @@ Nosotras ofrecemos como proyecto escalable:
 
 ## 3. Team Members
 
-| Name | Role | |
-| :--- | :---: | :---: |
+| Name | Role | 
+| :--- | :---: | 
 | Judit Calvet |  Scrum Master |
 | Aihnoa Cala | Product Owner | 
 | Carlos Sanchez  | Developer | 
 | Ana Delgado | Developer |
-| Raquel Palomo | Developer| 
+| Georgette Palomo | Developer| 
 
 
 <h2>4. Atomic Design</h2> 
@@ -51,9 +51,7 @@ Nosotras ofrecemos como proyecto escalable:
 <h2>5. Final Design</h2> 
 <div style="heigth:auto; display:flex; flex-wrap:wrap; justify-content:center; padding:1rem">
 
-| Login |  Home View |  Student View |  Student Show View | Score View |
-| --- | --- | --- | --- | --- |
-| <img style="width:150px;" src="public/css/img/imageLogin.png" alt="Login"/> | <img style="width:150px;" src="public/css/img/homeView.png" alt=""/> | <img style="width:150px;" src="public/css/img/studentView.png" alt=""/> |  <img style="width:150px;" src="public/css/img/studentShowView.png"/> | <img style="width:150px;" src="public/css/img/scoreView2.png"/> |
+![Mockup (1)](https://user-images.githubusercontent.com/114645883/221018815-95c1c4e6-3d78-4cf4-87dd-b1c1ed8a4a92.png)
 
 </div>
 
