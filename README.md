@@ -22,12 +22,14 @@ Nosotras ofrecemos como proyecto escalable:
 ![73322dd86f7b8e28e2b70142a3c954e9](https://user-images.githubusercontent.com/114645883/221011982-27967cc4-1387-4987-aad3-806f5d47c519.png)
 
 <h2>2. User stories:</h2>
-Yo como user quiero acceder a todas las vistas para poder enterarme de todo el contenido de la plataforma.
-Yo como user quiero un diseño intuitivo y simple para poder enrutarme entre las diferentes pantallas.
-Yo como user quiero acceder a la informacion de los anunciantes para revisar si hay algun proyecto que me gusta.
-Yo como user quiero una lista de mis favoritos para poder ponerme en contacto si finalmente quiero participar en uno de ellos.
-Yo como user quiero acceder a los puestos de los enunciantes para participar en la busqueda de proyectos comunes.
-Yo como user quiero poder ser identificado igualmente como usuario-cliente para beneficiarme de la horizontalidad de la app y buscar compañeros.
+<ul>
+<li>Yo como user quiero acceder a todas las vistas para poder enterarme de todo el contenido de la plataforma. </li>
+<li>Yo como user quiero un diseño intuitivo y simple para poder enrutarme entre las diferentes pantallas.</li>
+<li>Yo como user quiero acceder a la informacion de los anunciantes para revisar si hay algun proyecto que me gusta.</li>
+<li>Yo como user quiero una lista de mis favoritos para poder ponerme en contacto si finalmente quiero participar en uno de ellos.</li>
+<li>Yo como user quiero acceder a los puestos de los enunciantes para participar en la busqueda de proyectos comunes.</li>
+<li>Yo como user quiero poder ser identificado igualmente como usuario-cliente para beneficiarme de la horizontalidad de la app y buscar compañeros.</li>
+</ul>
 
 
 ## 3. Team Members
