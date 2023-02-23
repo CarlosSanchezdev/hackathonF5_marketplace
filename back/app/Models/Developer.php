@@ -15,6 +15,7 @@ class Developer extends Model
         'genderIdentity',
         'position',
         'stackDescription',
+        'projectDescription',
 
     ];
 }

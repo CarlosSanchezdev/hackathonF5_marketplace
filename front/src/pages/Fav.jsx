@@ -17,7 +17,7 @@ import { Link } from "react-router-dom";
 const theme = createTheme();
 
 function Fav({favourites, setCard, card}) {
-  console.info(favourites)
+  
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
