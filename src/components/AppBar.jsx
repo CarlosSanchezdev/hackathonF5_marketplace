@@ -10,7 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { Link } from "react-router-dom";
-import Logo from '../img/Logo.png'
+import Logo from '../img/Logo.png';
 
 const pages = ['Products', 'Pricing', 'Blog'];
 

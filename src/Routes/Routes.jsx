@@ -1,9 +1,9 @@
 import * as React from 'react';
 import {Routes, Route} from "react-router-dom";
-import Home from "../../pages/Home";
-import Cards from "../../pages/Cards";
-import ViewCard from "../../pages/ViewCard";
-import Fav from "../../pages/Fav";
+import Home from "../pages/Home";
+import Cards from "../pages/Cards";
+import ViewCard from "../pages/ViewCard";
+import Fav from "../pages/Fav";
 
 
 
