@@ -17,7 +17,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import AppBar from '../components/AppBar';
 import Footer from '../components/Footer';
 import perfil1 from "../img/perfil1.png";
-import perfil2 from "../img/perfil2.png";
+
 
 
 
@@ -60,12 +60,11 @@ export default function Album() {
         
           <Grid container spacing={4}>
             {cards.map((card) => (
+
               <Grid item key={card} xs={12} sm={6} md={4}>
                 <Card
                   sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
                 >
-              
-                
                   <CardMedia
                     component="img"
                     sx={{
