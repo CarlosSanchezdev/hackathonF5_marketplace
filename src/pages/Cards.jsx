@@ -1,25 +1,24 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
-import CameraIcon from '@mui/icons-material/PhotoCamera';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
-import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import AppBar from '../components/AppBar';
 import Footer from '../components/Footer';
+import foto from '../img/Perfil1.jpg'
 
 
 const cards = [
     {
         id: 1,
-        img: "../img/Perfil2.png",
+        img: {foto},
         name: "Carlos Sanchez",
         email: "carlos@developer.com",
         genderIdentity: "He/Him",
@@ -90,17 +89,12 @@ export default function Album() {
               <Grid item key={card.id} xs={12} sm={6} md={4}>
                 <Card
                   sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
-                >
+                > 
+                  <div style={{width: "100%", height:"100%"}}>
+                      <img style={{width: "100%", height:"100%"}} src={card.img} alt=''></img>
+                  </div>
                   
-                  <CardMedia
-                    component="img"
-                    sx={{
-                      
-                      pt: '56.25%',
-                    }}
-                    src={card.img}
-                    alt="random"
-                  />
+                  
                   <CardContent sx={{ flexGrow: 1 }}>
                     <Typography gutterBottom variant="h5" component="h2">
                       Heading
