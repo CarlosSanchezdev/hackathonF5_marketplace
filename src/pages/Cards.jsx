@@ -16,6 +16,9 @@ import Link from '@mui/material/Link';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import AppBar from '../components/AppBar';
 import Footer from '../components/Footer';
+import perfil1 from "../img/perfil1.png";
+import perfil2 from "../img/perfil2.png";
+
 
 
 // function Copyright() {
@@ -35,6 +38,9 @@ const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 const theme = createTheme();
 
+
+
+
 export default function Album() {
   return (
     <ThemeProvider theme={theme}>
@@ -50,7 +56,7 @@ export default function Album() {
         >
     
         </Box>
-        <Container sx={{ py: 8 }} maxWidth="md">
+        <Container sx={{ py: 0}} maxWidth="md">
         
           <Grid container spacing={4}>
             {cards.map((card) => (
@@ -58,15 +64,18 @@ export default function Album() {
                 <Card
                   sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
                 >
+              
+                
                   <CardMedia
                     component="img"
                     sx={{
                       
-                      pt: '56.25%',
+                      pt: '0%',
                     }}
-                    image="https://source.unsplash.com/random"
+                    img src={perfil1} 
                     alt="random"
                   />
+                
                   <CardContent sx={{ flexGrow: 1 }}>
                     <Typography gutterBottom variant="h5" component="h2">
                       Heading
@@ -86,6 +95,9 @@ export default function Album() {
           </Grid>
         </Container>
       </main>
+      <br/>
+      <br/>
+      <br/>
       <Footer />
     </ThemeProvider>
   );
