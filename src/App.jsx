@@ -1,25 +1,18 @@
 import "./App.css";
-import Home from "./pages/Home";
-// import Cards from "./pages/Cards";
-// import ViewCard from "./pages/ViewCard";
-//import Fav from "./pages/Fav";
 
-
+import Routes from "./components/Routes/Routes";
+import { BrowserRouter } from 'react-router-dom';
 
 
 function App() {
   return (
-     <div>
-       <Home></Home> 
-      {/* <Cards></Cards>  */}
-      {/* <ViewCard></ViewCard> */}
-      {/* <Fav></Fav> */}
-     </div>
+     <>
+      <BrowserRouter>
+      <Routes/>
+      </BrowserRouter>
+     </>
      
-     
-    
-   
   
   );
 }
-export default App;
+export default App
