@@ -10,7 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { Link } from "react-router-dom";
-import Logo from '../img/Logo.png';
+import Logo from '../img/Logo.svg';
 
 const pages = ['Products'];
 
@@ -30,7 +30,7 @@ function ResponsiveAppBar() {
   return (
     <AppBar position="static" style={{ background: 'transparent' }}>
       <Container maxWidth="xl" >
-        <Toolbar disableGutters sx={{display: 'flex', justifyContent: 'space-between' }}>
+        <Toolbar disableGutters >
           <Box sx={{ width:{ xs: 1/2, md: 1/5 } }}>
             <Link to="/" > <img className='logo' src={Logo} alt="corazon de neon" ></img></Link>
           </Box>
@@ -65,9 +65,12 @@ function ResponsiveAppBar() {
               }}
             >
               {pages.map((page) => (
+                <Link to="/Cards" >
+
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">{page}</Typography>
                 </MenuItem>
+                </Link>
               ))}
             </Menu>
           </Box>

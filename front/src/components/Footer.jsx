@@ -19,11 +19,14 @@ export default function SimpleBottomNavigation() {
           setValue(newValue);
         }}
       >
-        <BottomNavigationAction label="Recents" icon={<RestoreIcon />} />
-        <Link to="/Fav"  >
-          <BottomNavigationAction label="Favorites" icon={<FavoriteIcon />} />
+        
+        <BottomNavigationAction  icon={<RestoreIcon />} />
+        
+        <Link to="/Fav">
+          <BottomNavigationAction  icon={<FavoriteIcon />} />
         </Link>
-        <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} />
+        
+        <BottomNavigationAction icon={<LocationOnIcon />} />
       </BottomNavigation>
     </Box>
   );

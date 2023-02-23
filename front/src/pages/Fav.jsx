@@ -57,10 +57,7 @@ function Fav({favourites, setCard, card}) {
                       {card.stackDescription}
                     </Typography>
                   </CardContent>
-                  <CardActions>
-                    <Button size="small">View</Button>
-                    <Button size="small">Edit</Button>
-                  </CardActions>
+                  
                 </Card>
                 </Link>
                 
