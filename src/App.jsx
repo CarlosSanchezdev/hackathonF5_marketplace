@@ -1,16 +1,19 @@
 import "./App.css";
-// import Home from "./pages/Home";
+import Home from "./pages/Home";
 // import Cards from "./pages/Cards";
-import ViewCard from "./pages/ViewCard";
+// import ViewCard from "./pages/ViewCard";
+//import Fav from "./pages/Fav";
+
 
 
 
 function App() {
   return (
      <div>
+       <Home></Home> 
       {/* <Cards></Cards>  */}
-      {/* <Home></Home> */}
-      <ViewCard></ViewCard>
+      {/* <ViewCard></ViewCard> */}
+      {/* <Fav></Fav> */}
      </div>
      
      
