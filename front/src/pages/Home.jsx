@@ -13,10 +13,7 @@ class Home extends React.Component{
       
       <div className='ana-contenedor' container spacing={2}>
       <AppBar/>  
-        <section className='ana-textosection'>
-          <h1 className='ana-text'>Músicrgergljvijvneinovonpnvina</h1>
-          
-		    </section>
+        
 
        <img className='ana-imagen3' src={Inicio} alt="corazon de neon" />
      

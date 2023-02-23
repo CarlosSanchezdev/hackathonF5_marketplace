@@ -12,64 +12,22 @@ import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import AppBar from '../components/AppBar';
 import Footer from '../components/Footer';
-import foto from '../img/Perfil1.jpg'
+//import objects from '../API/Object';
+import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Service } from "../Service/Service";
 
 
-const cards = [
-    {
-        id: 1,
-        img: {foto},
-        name: "Carlos Sanchez",
-        email: "carlos@developer.com",
-        genderIdentity: "He/Him",
-        position: "Front Developer",
-        stackDescription: "Junior Front Developer with experience in HTML5, CSS3, JavaScript and React.",
-    },
-    {
-        id: 2,
-        img: "../img/Perfil1.png",
-        name: "Ana Delgado",
-        email: "ana@developer.com",
-        genderIdentity: "She/Her",
-        position: "Full Stack Developer",
-        stackDescription: "Junior Full Stack Developer with experience in HTML5, CSS3, JavaScript, React, PHP and symphony.",
-    },
-    {
-        id: 3,
-        img: "../img/Perfil1.png",
-        name: "Alba Rus",
-        email: "alba@developer.com",
-        genderIdentity: "She/Her",
-        position: "Back Developer",
-        stackDescription: "Junior Back Developer with experience in HTML5, CSS3, JavaScript, PHP, Laravel and MySQL.",
-    },
-    {
-        id: 4,
-        img: "../img/Perfil1.png",
-        name: "Ainhoa Cala",
-        email: "ainhoa@developer.com",
-        genderIdentity: "She/Her",
-        position: "Front Developer",
-        stackDescription: "Junior Front Developer with experience in HTML5, CSS3, JavaScript and React.",
-    },
-    {
-        id: 5,
-        img: "../img/Perfil1.png",
-        name: "Ainhoa Cala",
-        email: "ainhoa@developer.com",
-        genderIdentity: "She/Her",
-        position: "Front Developer",
-        stackDescription: "Junior Front Developer with experience in HTML5, CSS3, JavaScript and React.",
-    },
-];
+
+//const cards = objects
 
 const theme = createTheme();
 
-export default function Album() {
+export default function Album({card, setCard}) {
   const [cards, setData] = useState([]);
 useEffect(() =>{
-    sakuraService().then(data => {
-    setData(data.sort(function () {return Math.random() - 0.5;}))})
+    Service().then(data => {
+    setData(data)})
 }, []);
 
   return (
@@ -92,21 +50,28 @@ useEffect(() =>{
             {cards.map((card) => (
               
               <Grid item key={card.id} xs={12} sm={6} md={4}>
+                <Link to="/ViewCard" onClick={ () => setCard(card) } >
+              
                 <Card
                   sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
                 > 
-                  <div style={{width: "100%", height:"100%"}}>
-                      <img style={{width: "100%", height:"100%"}} src={card.img} alt=''></img>
-                  </div>
+                  <CardMedia
+                    component="img"
+                    sx={{
+                      
+                      pt: '56.25%',
+                    }}
+                    src={card.img}
+                    alt="random"
+                  />
                   
                   
                   <CardContent sx={{ flexGrow: 1 }}>
                     <Typography gutterBottom variant="h5" component="h2">
-                      Heading
+                      {card.name}
                     </Typography>
                     <Typography>
-                      This is a media card. You can use this section to describe the
-                      content.
+                      {card.stackDescription}
                     </Typography>
                   </CardContent>
                   <CardActions>
@@ -114,6 +79,7 @@ useEffect(() =>{
                     <Button size="small">Edit</Button>
                   </CardActions>
                 </Card>
+                </Link>
               </Grid>
             ))}
           </Grid>

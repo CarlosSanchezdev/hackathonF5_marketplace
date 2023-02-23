@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
         // \App\Models\Developer::factory()->create();
 
         Developer::factory()->create([
-             'img' => '',
+             'img' => 'https://cdn.pixabay.com/photo/2023/02/14/18/55/flowers-7790227_1280.jpg',
              'name' => 'Carlos Sanchez',
              'email' => 'carlos@developer.com',
              'genderIdentity' => 'He/Him',
@@ -32,7 +32,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
          Developer::factory()->create([
-             'img' => '',
+             'img' => 'https://cdn.pixabay.com/photo/2023/02/14/18/55/flowers-7790227_1280.jpg',
              'name' => 'Ana Delgado',
              'email' => 'ana@developer.com',
              'genderIdentity' => 'She/Her',

@@ -9,13 +9,13 @@ import Fav from "../pages/Fav";
 
 
 
-const Rutas = () => {
+const Rutas = ({card, setCard, handleClick, favourites}) => {
     return (
         <Routes>
             <Route path="/"  element={<Home />} />
-            <Route path="/Cards" element={<Cards/>} />
-            <Route path="/ViewCard" element={<ViewCard />} />
-            <Route path="/Fav" element={<Fav />} />
+            <Route path="/Cards" element={<Cards card={card} setCard={setCard}/> } />
+            <Route path="/ViewCard" element={<ViewCard handleClick={handleClick} card={card} setCard={setCard}/>} />
+            <Route path="/Fav" element={<Fav card={card} setCard={setCard} favourites={favourites}/>} />
         </Routes> 
      );
 }
