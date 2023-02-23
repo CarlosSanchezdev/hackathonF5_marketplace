@@ -10,7 +10,7 @@ import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 
 export default function ActionAreaCard({card, setCard, handleClick}) {
-  console.info(card)
+  
   return (
     <>
     <AppBar />
