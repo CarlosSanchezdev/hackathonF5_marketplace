@@ -4,11 +4,12 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+import AppBar from '../components/AppBar';
 
 export default function ActionAreaCard() {
-  return (
-
-    <Card sx={{ maxWidth: 785 }}>
+    return (
+      <Card sx={{ maxWidth: 785 }}>
+        <AppBar></AppBar>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -26,7 +27,8 @@ export default function ActionAreaCard() {
           </Typography>
         </CardContent>
       </CardActionArea>
+     
     </Card>
 
-  );
+    );
 }
