@@ -16,6 +16,8 @@ const Rutas = () => {
             <Route path="/Cards" element={<Cards/>} />
             <Route path="/ViewCard" element={<ViewCard />} />
             <Route path="/Fav" element={<Fav />} />
+           
+           
         </Routes> 
      );
 }

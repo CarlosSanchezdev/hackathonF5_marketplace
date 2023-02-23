@@ -10,7 +10,7 @@ export default function SimpleBottomNavigation() {
   const [value, setValue] = React.useState(0);
 
   return (
-    <Box sx={{ width: 1 }}>
+    <Box sx={{ width: 4 }}>
       <BottomNavigation
         showLabels
         value={value}
@@ -18,10 +18,22 @@ export default function SimpleBottomNavigation() {
           setValue(newValue);
         }}
       >
-        <BottomNavigationAction label="Recents" icon={<RestoreIcon />} />
-        <BottomNavigationAction label="Favorites" icon={<FavoriteIcon />} />
-        <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} />
+        <BottomNavigationAction label="Recents" 
+        icon={<RestoreIcon />} 
+        sx={{ color: 'black', display: 'flex', alignItems: 'center' }}/>
+        <BottomNavigationAction label="Favorites" 
+        icon={<FavoriteIcon />} 
+        sx={{ color: 'black', display: 'flex', alignItems: 'center' }}/>
+        <BottomNavigationAction label="Nearby" 
+        icon={<LocationOnIcon />} 
+        sx={{ color: 'black', display: 'flex', alignItems: 'center' }}/>
+
       </BottomNavigation>
+        <section>
+          <h1 style={{ fontSize: '12px', color: 'black', display: 'flex', alignItems: 'center' }}>2023 MUI</h1>
+          
+        </section>
+
     </Box>
   );
 }
