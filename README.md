@@ -2,12 +2,22 @@
 
 <h1>Project: "MARKETPLACE"</h1>
 
-<h2>1. Project description:</h2>
+# hackathlonF5_marketplace
+<h1>startUpComunity</h1>
+
+<p> Estais en frente del proyecto final de la Hackathon 2023, Estamos muy contentos de llegar hasta este punto de desarollo formativo de nuestro respectivos guías. Sabemos que tenemos la capacidad de poder aforntar este pequeño y pero intenso reto gracias a la comunicacion constante con nuestro equipo, la organización de tareas usando srum agile, fortalecer nuestrtas nociones para refactorizar y documentar herramientas nuevas. Un reto académico que agradecemos a nuestro mesia CaixaBank. Nuestro equipo de desarrollo esta formado por nuestra Product Owner Ainoha, Scrum Judit, y nuestros developers Georgette, Carlos, Ana, Bryan, Caren y Natalia. Aunque en realidad todos ejercemos de desarrolladores. Nuestro objetivo es crear un nuevo producto según los requerimientos de nuestro cliente. <p>
+  
+<h2>1. Requerimientos base para MVP:</h2>
 <ul>
-<li>The client is a school that has asked us for an app to manage its students data and scores.</li>
+<li>
 <li>Students will be able to view their exams marks.</li>
 <li>Their teacher will be able to add, modify and delete both students and their marks.</li>
 </ul>
+
+
+Sobre nuestra propuesta de proyecto:
+
+<img width="1419" alt="Captura de Pantalla 2023-02-22 a las 9 09 19" src="https://user-images.githubusercontent.com/114645883/221005217-52c7fd1b-9b95-43e7-83b2-a6b2af5fc416.png">
 
 <h2>2. User stories:</h2>
 
