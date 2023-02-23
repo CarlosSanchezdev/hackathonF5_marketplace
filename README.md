@@ -1,21 +1,21 @@
 # hackathlonF5_marketplace
-
-<h1>Project: "MARKETPLACE"</h1>
-
-# hackathlonF5_marketplace
 <h1>startUpComunity</h1>
 
-<p> Estais en frente del proyecto final de la Hackathon 2023, Estamos muy contentos de llegar hasta este punto de desarollo formativo de nuestro respectivos guías. Sabemos que tenemos la capacidad de poder aforntar este pequeño y pero intenso reto gracias a la comunicacion constante con nuestro equipo, la organización de tareas usando srum agile, fortalecer nuestrtas nociones para refactorizar y documentar herramientas nuevas. Un reto académico que agradecemos a nuestro mesia CaixaBank. Nuestro equipo de desarrollo esta formado por nuestra Product Owner Ainoha, Scrum Judit, y nuestros developers Georgette, Carlos, Ana, Bryan, Caren y Natalia. Aunque en realidad todos ejercemos de desarrolladores. Nuestro objetivo es crear un nuevo producto según los requerimientos de nuestro cliente. <p>
+<p> Estais en frente del proyecto final de la Hackathon 2023, Estamos muy contentos de llegar hasta este punto de desarollo formativo gracias a nuestros respectivos guías. Lo sabemos, tenemos la capacidad de poder aforntar este pequeño y pero intenso reto: comunicacion constante con nuestro equipo, la organización de tareas usando srum agile, fortalecer nuestrtas nociones para refactorizar y documentar herramientas nuevas. Un reto académico que agradecemos a nuestro sponsor CaixaBank. Nuestro equipo de desarrollo esta formado por nuestra Product Owner Ainoha, Scrum Judit y, aunque en realidad todos ejercemos de desarrolladores,  nuestros developers Georgette, Carlos, Ana, Bryan, Caren y Natalia. Nuestro objetivo es crear un nuevo producto según los requerimientos de nuestro cliente. <p>
   
-<h2>1. Requerimientos base para MVP:</h2>
+<h2>1. Requerimientos base del cliente para MVP:</h2>
 <ul>
-<li>
-<li>Students will be able to view their exams marks.</li>
-<li>Their teacher will be able to add, modify and delete both students and their marks.</li>
+ <li> Crear un Marketplace </li>
+<li> Crear Anuncios y publicarlos.</li>
+<li> Usuario como visitante</li>
+<li> Cliente que paga por anunciarse</li>
+<li> Contacto entre usuario y cliente </li>
 </ul>
 
-
-Sobre nuestra propuesta de proyecto:
+Nosotras ofrecemos como proyecto escalable:
+1. Un marquetplace en el que el objetivo sera crear una comunidad de desarolladores que quieran emprender una startup y necesiten colaboradores. 
+2. La tematica de los proyectos startup seran exclusivos de tematicas especificas que creemos que podrían mejorar nuestro futuro. La ansiedad climática, el fantasma del razismo, el clasisimo y el machismo y la gran mentira de un crecimiento economico sin límite nos esta llevando a una desazón profunda, y creemos que mediante vias tecnologicas podemos ayudar a que nuestro entorno deje de ser un poco menos hostil.
+3. En esta plataforma esta enfocada a perfiles tecnologicos o de desarrollo junior que quieran aportar algo valioso juntándose en esta comunidad "startupera". Podra acceder al perfil de compañeras, ver sus inquietudes y habilidades en el sector tec y, si quereis desarrollar una tematica en común dale al favoritos, ¡Es un mach!, apartir de aqui ya deberan ponerse en contacto.
 
 <img width="1419" alt="Captura de Pantalla 2023-02-22 a las 9 09 19" src="https://user-images.githubusercontent.com/114645883/221005217-52c7fd1b-9b95-43e7-83b2-a6b2af5fc416.png">
 
