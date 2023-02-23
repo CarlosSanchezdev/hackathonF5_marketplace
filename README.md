@@ -135,4 +135,8 @@ To run the vendor tests, execute the following command:
 <li>Mob programming.</li>
 <li>Pair programming.</li>
 <li>Agile with SCRUM</li>
+<<<<<<< HEAD
 <li>TDD</li> 
+=======
+<li>TDD</li> 
+>>>>>>> b7874406f6cc0a78376b0d5b8e37ffc320d04496
