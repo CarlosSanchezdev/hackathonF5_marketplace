@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow-x: hidden !important;
+  font-family: inter;
+} 
+ 
+ .css-1t6c9ts {
+  justify-content: flex-end !important;
+} 
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: white !important;
+  box-shadow: none !important;
+  
+}
+
+.css-1pz7awu-MuiButtonBase-root-MuiIconButton-root{
+  color:black!important ;
+}
+
+.css-1lvtzne {
+  justify-content: flex-end !important;
+}
+
+.css-1q39md6-MuiButtonBase-root-MuiButton-root {
+  color: black !important;
+}
+
+.imagen-inicio{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10% !important;
+  margin-bottom: 10% !important;
+}
+
+.css-11lq3yg-MuiGrid-root {
+  display: flex;
+  justify-content: center;
+}
+
+.parrafo-principal, .parrafo-secundario{
+  margin: 10%;
+  font-size: 140%;
+}
+
+.parrafo-tercero, .parrafo-cuarto{
+  font-size: 140%;
+  margin-left: 10%;
+  margin-top: -10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+.parrafo-principal{
+  font-size: 220%;
+  line-height: 150%;
+}
+
+u{
+  color: #BE3455;
+}
+
+strong{
+  color: #16635A;
+}
+
+.subrayado{
+  text-decoration: none;
+  background-color: #EB9469;
+}
