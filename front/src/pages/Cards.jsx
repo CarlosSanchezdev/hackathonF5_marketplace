@@ -66,6 +66,11 @@ const cards = [
 const theme = createTheme();
 
 export default function Album() {
+  const [cards, setData] = useState([]);
+useEffect(() =>{
+    sakuraService().then(data => {
+    setData(data.sort(function () {return Math.random() - 0.5;}))})
+}, []);
 
   return (
     <ThemeProvider theme={theme}>
