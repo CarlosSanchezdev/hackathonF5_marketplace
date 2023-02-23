@@ -57,10 +57,7 @@ useEffect(() =>{
                 > 
                   <CardMedia
                     component="img"
-                    sx={{
-                      
-                      pt: '56.25%',
-                    }}
+                    
                     src={card.img}
                     alt="random"
                   />
@@ -74,10 +71,7 @@ useEffect(() =>{
                       {card.stackDescription}
                     </Typography>
                   </CardContent>
-                  <CardActions>
-                    <Button size="small">View</Button>
-                    <Button size="small">Edit</Button>
-                  </CardActions>
+                  
                 </Card>
                 </Link>
               </Grid>

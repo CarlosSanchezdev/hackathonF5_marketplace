@@ -12,7 +12,7 @@ import MenuItem from '@mui/material/MenuItem';
 import { Link } from "react-router-dom";
 import Logo from '../img/Logo.png';
 
-const pages = ['Products', 'Pricing', 'Blog'];
+const pages = ['Products'];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -20,7 +20,9 @@ function ResponsiveAppBar() {
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleCloseNavMenu = () => {
+  const handleCloseNavMenu = (value) => {
+    
+    
     setAnchorElNav(null);
   };
 
@@ -73,13 +75,20 @@ function ResponsiveAppBar() {
           
           <Box sx={{ flexGrow: 0, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
-              <Button
+              
+              
+                <Link to="/Cards" >
+                <Button
                 key={page}
-                onClick={handleCloseNavMenu}
+                onClick={() => handleCloseNavMenu(page)}
                 sx={{ my: 2, color: 'black', display: 'block' }}
               >
                 {page}
               </Button>
+              </Link>
+              
+              
+              
             ))}
           </Box>
 

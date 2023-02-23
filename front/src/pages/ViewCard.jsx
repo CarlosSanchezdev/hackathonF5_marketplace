@@ -9,25 +9,24 @@ import Footer from '../components/Footer';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 
-export default function ActionAreaCard({card, setCard, handleClick}) {
+export default function ActionAreaCard({card, handleClick}) {
   
   return (
     <>
     <AppBar />
       <Card sx={{ maxWidth: 785 }}>
         <CardActionArea>
-          <CardMedia
-            component="img"
-            height="140"
-            scr={card.img}
-            alt="green iguana"
-          />
+          <img src={card.img} alt="Logo" />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               {card.name}
             </Typography>
             <Typography variant="body2" color="text.secondary">
               {card.stackDescription}
+            </Typography>
+            <br/>
+            <Typography variant="body2" color="text.secondary">
+              {card.projectDescription}
             </Typography>
           </CardContent>
         </CardActionArea>

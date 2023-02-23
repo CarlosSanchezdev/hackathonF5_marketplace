@@ -44,10 +44,6 @@ function Fav({favourites, setCard, card}) {
                 > 
                   <CardMedia
                     component="img"
-                    sx={{
-                      
-                      pt: '56.25%',
-                    }}
                     src={card.img}
                     alt="random"
                   />
