@@ -40,7 +40,7 @@ Nosotras ofrecemos como proyecto escalable:
 | Aihnoa Cala | Product Owner | 
 | Carlos Sanchez  | Developer | 
 | Ana Delgado | Developer |
-| Georgette Palomo | Developer| 
+| Georgette Velasco | Developer| 
 
 
 <h2>5. Final Design</h2> 
