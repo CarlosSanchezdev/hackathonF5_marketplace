@@ -35,7 +35,7 @@ Nosotras ofrecemos como proyecto escalable:
 ## 3. Team Members
 
 | Name | Role | GitHub |
-| :--- | :---: | 
+| :--- | :---: | :---: | 
 | Judit Calvet |  Scrum Master | https://github.com/Judit-Calvet | 
 | Aihnoa Cala | Product Owner | https://github.com/acalabustos | 
 | Carlos Sanchez  | Developer | https://github.com/Holapueblodev | 
